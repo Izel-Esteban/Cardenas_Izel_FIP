@@ -1,0 +1,327 @@
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ /* 1. ---Main Nav--- */
+ 
+  #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ 
+ /*   ~ sibling selector   */
+ 
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ 
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ } 
+ 
+ 
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ 
+ 
+ /* Dinning Introduction */
+ 
+ #hero {
+    background: url(../images/Dinnin-1m.jpg) no-repeat;
+    height: 200px;
+ }
+ 
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    animation: book-now 0.3s ease-in forwards;
+ }
+ 
+ @keyframes book-now {
+    from {
+       background-color: #9a2018;
+     }
+     to {
+       background-color: rgb(196,28,28);
+     }
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+ 
+ #hero-heading-box {
+    align-self: end;
+ }
+ 
+ .hero-img-h2, .hero-img-h3 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 14px;
+ }
+ 
+ .hero-img-h2 span,  .hero-img-h3 span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ #hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ /* Menu List*/
+ 
+ .menu-div{
+    display:flex;
+    align-items: center;
+    margin-bottom: 25px;
+ }
+ 
+ .linea-vertical {
+    width: 3px; 
+    height: 30px; 
+    background-color: #9a2018; 
+    margin-right: 1px;
+  }
+ 
+ 
+ 
+ 
+ 
+   /*Menus*/
+   
+   
+ .main-menu{
+    margin-bottom: 25px;
+ }
+ 
+ .main-menu label i {
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 10px;
+ } 
+ 
+ .main-menu input, .daily-features-content {
+    display: none;
+ }
+ 
+ .textttt {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+ 
+ .fas {
+   font-size: 20px;
+   color: #9a2018;
+   margin: 0 auto;
+   float: left;
+ }
+ 
+ .fa-play {
+   margin-right: 10px;
+   margin-left: 3px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+ }
+ 
+ .main-menu{
+    background-color: #F4F4F4;
+    border-color: #9a2018;
+    border-width: 1px;
+    border-style: solid;
+ }
+ 
+ 
+ .main-menu input:checked ~ .daily-features-content {
+    display: block;
+ }
+ 
+ .main-menu input:checked ~ label i {
+    transform: rotate(90deg);
+ }
+ 
+ .main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .main-menu ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: left;
+    color: #626262;
+ }
+ 
+ 
+ .main-menu ul li:first-child {
+   border-top: 1px solid #efefef;
+ }
+ 
+ .main-menu ul li:last-child {
+    margin-bottom: 10px;
+ }
+ 
+ 
+ /*Meals Wine*/
+ 
+ #wine-Meals {
+    background: url(../images/Wine-Meals.jpg) no-repeat;
+    height: 200px;
+ }
+ 
+ 
+ 
+ #Wine-Meals1 {
+    align-self: end;
+ }
+ 
+ 
+ #Meals-Wine-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ 
+ /*check box  1054*/
+ 
+ 
+ #checkbox-final input[type="checkbox"] {
+    display: inline;
+    margin: 5px;
+    
+ }
+ 
+ #checkbox-fina input[type="checkbox"]:checked + span::after {
+    content: "\2713";
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    animation: fadeIn 0.7s;
+ }
+ 
+ @keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+ }
+ 
+ /* footer */
+ 
+ #footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }
+  
+ 
+ 
+   
+ 
+ 
