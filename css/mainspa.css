@@ -1,0 +1,582 @@
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
+ 
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ 
+ 
+  #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ 
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ } 
+ 
+ 
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ 
+ 
+ 
+ 
+ #hero {
+    background: url(../images/Spa-Services.jpg) no-repeat;
+    height: 200px;
+    
+ 
+ }
+ 
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+ }
+ 
+ .book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+ 
+ #hero-heading-box {
+    align-self: end;
+ }
+ 
+ #hero-heading-box2 {
+    align-self: end;
+ }
+ 
+ .hero-img-h2, .hero-img-h3 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 14px;
+ }
+ 
+ .hero-img-h2 span,  .hero-img-h3 span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ #hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ /**Lista Inicio**/
+ 
+ #MassagesList {
+    
+    background-color: #f4f4f4;
+    padding-top: 35px;
+    padding-bottom: 30px;
+ }
+ 
+ #MassagesList h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+ }
+ 
+ #MassagesList h2 span {
+    color: #9a2018;
+    font-size: 16px;
+ }
+ 
+ .Massage-items {
+    margin-bottom: 16px;
+ }
+ 
+ .Massage-items h3 {
+    background: #e8e7e7;
+    padding: 16px;
+    font-size: 16px;
+ }
+ 
+ .Massage-items ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ }
+ 
+ .Massage-items li {
+    padding: 8px 0;
+    border-bottom: 1px solid #9a2018;
+ }   
+ 
+ .Massage-items a {
+    color: inherit;
+    font-size: 13px;
+ }
+ 
+ #Massage-text-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ /* spa 1 */
+ 
+ 
+ 
+ #Massage-1-hero-con {
+  background: url(../images/Massage1m.jpg) no-repeat;
+  height: 150px
+ }
+ 
+ #Massage-1-heading-box {
+   align-self: end;
+ }
+ 
+ .Massage-1{
+   float: left;
+   margin-right: 20px;
+   margin-top: 0px;
+ }
+ 
+ .Massage-1-con p {
+   font-size: 14px;
+   margin-bottom: 20px;
+   line-height: 20px;
+ }
+ 
+ .Massage-1-con a {
+   color: #707070;
+   font-size: 12px;
+ }
+ #prices1-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #book-now-spa1{
+   height: 67px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   
+   
+   
+ }
+ /* spa 2*/
+ 
+ 
+ 
+ 
+ #Massage-2-hero-con {
+   background: url(../images/Massage-2m.jpg) no-repeat;
+   height: 150px
+   
+ }
+ 
+ #Massage-2-heading-box {
+    align-self: end;
+ }
+ 
+ 
+ 
+ 
+ .Massage-2-con p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ 
+ .Massage-2-con a {
+    color: #707070;
+    font-size: 12px;
+    
+ }
+ 
+ #prices2-1-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices2-2-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices2-3-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #book-now-spa2{
+   height: 67px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+ }
+ 
+ 
+ /* spa 3*/
+ 
+ 
+ 
+ 
+ #Massage-3-hero-con {
+   background: url(../images/Massage-3m.jpg) no-repeat;
+   height: 150px
+   
+ }
+ 
+ 
+ 
+ #Massage-3-heading-box {
+    align-self: end;
+ }
+ 
+ .Massage-3{
+   float: right;
+   margin-right: 20px;
+   margin-top: 0px;
+ }
+ 
+ 
+ .Massage-3-con p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ 
+ .Massage-3-con a {
+    color: #707070;
+    font-size: 12px;
+    
+ }
+ 
+ #prices3-1-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices3-2-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices3-3-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+   
+ }
+ #prices3-4-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ #book-now-spa3{
+   height: 67px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+ }
+ 
+ 
+ /* spa 4*/
+ 
+ 
+ 
+ 
+ #Massage-4-hero-con {
+   background: url(../images/Massage-4m.jpg) no-repeat;
+   height: 150px
+   
+ }
+ 
+ 
+ 
+ #Massage-4-heading-box {
+    align-self: end;
+ }
+ 
+ .Massage-4{
+   float: right;
+   margin-right: 0px;
+   margin-top: 0px;
+ }
+ 
+ 
+ .Massage-4-con p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ 
+ .Massage-4-con a {
+    color: #707070;
+    font-size: 12px;
+    
+ }
+ 
+ #prices4-1-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices4-2-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices4-3-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+   
+ }
+ 
+ #book-now-spa4{
+   height: 67px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+ }
+ 
+ 
+ /* spa 5*/
+ 
+ 
+ 
+ 
+ #Massage-5-hero-con {
+   background: url(../images/Massage5.mm.jpg) no-repeat;
+   height: 150px
+   
+ }
+ 
+ 
+ 
+ #Massage-5-heading-box {
+    align-self: end;
+ }
+ 
+ .Massage-5{
+   float: right;
+   margin-right: 0px;
+   margin-top: 0px;
+ }
+ 
+ 
+ .Massage-5-con p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ 
+ .Massage-5-con a {
+    color: #707070;
+    font-size: 12px;
+    
+ }
+ 
+ #prices5-1-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices5-2-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ 
+ #prices5-3-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+   
+ }
+ #prices5-4-ul-bottom li{
+   list-style-type:none ;
+   display: flex;
+   font-weight: bold;
+   font-size: 14px;
+   
+ }
+ #book-now-spa5{
+   height: 67px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+ }
+ 
+ /* Spa Policies And Products*/
+ #Policies-hero-con {
+   background: url(../images/Policies-Products.mMm.jpg) no-repeat;
+   height: 150px
+   
+ }
+ 
+ 
+ 
+ #Policies-heading-box {
+    align-self: end;
+ }
+ 
+ .Policies{
+   float: right;
+   margin-right: 0px;
+   margin-top: 0px;
+ }
+ 
+ 
+ .Policies-con p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ 
+ .Policies-con a {
+    color: #707070;
+    font-size: 12px;
+    
+ }
+ 
+ #Policies6-1{
+   float: right;
+   margin-left: 20px;
+   margin-top: 0px;
+ }
+ 
+ #Policies6-2{
+   float: left;
+   margin-right: 20px;
+   margin-top: 0px;
+ }
+ 
+ /* footer */
+ 
+ #footer-hero {
+   background-image: url(../images/footer.jpg);
+   background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+   margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+   font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
+ }
