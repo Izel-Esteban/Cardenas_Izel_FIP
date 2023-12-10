@@ -276,7 +276,7 @@
     
  }
  
- #checkbox-fina input[type="checkbox"]:checked + span::after {
+ #checkbox-final input[type="checkbox"]:checked + span::after {
     content: "\2713";
     width: 35px;
     height: 35px;
